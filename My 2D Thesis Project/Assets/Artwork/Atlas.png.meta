@@ -1376,7 +1376,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1384,6 +1384,27 @@ TextureImporter:
       bones: []
       spriteID: da80f97f830ffde4bbf8c11f67b3d71b
       internalID: -1964511048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda51d2ed0dbba543bb9d58e9f83aae6
+      internalID: 1136174460
       vertices: []
       indices: 
       edges: []
@@ -1431,6 +1452,7 @@ TextureImporter:
       enemy_0: -1964511048
       healingfountain_1: -429004946
       weapon_5: 1067364374
+      menu_0: 1136174460
       floor_6: 954348018
       torch_1: 133001735
       wall_9: -695358075
