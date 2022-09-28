@@ -15,6 +15,7 @@ public class Chest : Collectible
         {
             collected = true;
             GetComponent<SpriteRenderer>().sprite = emptyChest;
+            GameManager.instance.pesos += pesosAmount;
             GameManager.instance.ShowText("+" + pesosAmount + " Gold!",25,Color.yellow,transform.position,Vector3.up * 50, 3.0f);
 
         }
