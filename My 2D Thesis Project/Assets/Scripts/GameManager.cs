@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
     public RectTransform hitpointBar;
     public GameObject hud;
     public GameObject menu;
+    public Animator deathMenuAnim;
 
 
     // Logic
@@ -148,6 +149,14 @@ public class GameManager : MonoBehaviour
     public void OnSceneLoaded(Scene s, LoadSceneMode mode)
     {
         player.transform.position = GameObject.Find("SpawnPoint").transform.position;
+    }
+
+    // Death Menu and respawn
+    public void Respawn()
+    {
+        deathMenuAnim.SetTrigger("Hide");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main Scene");
+        player.Respawn();
     }
 
     public void LoadState(Scene s, LoadSceneMode mode)

@@ -1397,7 +1397,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1405,6 +1405,48 @@ TextureImporter:
       bones: []
       spriteID: bda51d2ed0dbba543bb9d58e9f83aae6
       internalID: 1136174460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4541745e3082249b92a4eaaf4a0f1c
+      internalID: 291266032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fa9d3bfcb4e53468eef84e17923f69
+      internalID: -1828403131
       vertices: []
       indices: 
       edges: []
@@ -1450,6 +1492,7 @@ TextureImporter:
       chest_1: 284442257
       crate_3: 544051326
       enemy_0: -1964511048
+      boss_0: 291266032
       healingfountain_1: -429004946
       weapon_5: 1067364374
       menu_0: 1136174460
@@ -1461,6 +1504,7 @@ TextureImporter:
       floor_0: -1546619241
       player_1: 646820989
       weapon_0: -2102310501
+      enemy_1: -1828403131
       weapon_1: -1393936350
       wall_2: 1335942214
       wall_6: -2066863602
