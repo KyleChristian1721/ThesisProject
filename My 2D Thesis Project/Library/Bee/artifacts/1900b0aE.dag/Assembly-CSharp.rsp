@@ -390,6 +390,7 @@
 "Assets/Scripts/FloatingTextManager.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HealingFountain.cs"
+"Assets/Scripts/MenuController.cs"
 "Assets/Scripts/Mover.cs"
 "Assets/Scripts/NPCTextPerson.cs"
 "Assets/Scripts/Player.cs"
