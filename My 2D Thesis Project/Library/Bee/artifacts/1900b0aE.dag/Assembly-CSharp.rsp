@@ -392,6 +392,7 @@
 "Assets/Scripts/HealingFountain.cs"
 "Assets/Scripts/LoadPrefs.cs"
 "Assets/Scripts/MenuController.cs"
+"Assets/Scripts/MenuControllerStartMenu.cs"
 "Assets/Scripts/Mover.cs"
 "Assets/Scripts/NPCTextPerson.cs"
 "Assets/Scripts/Player.cs"
